@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'index';
   firstname ='ömer';
 }
+
  

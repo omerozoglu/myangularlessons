@@ -10,6 +10,7 @@ export class ProductComponent implements OnInit {
 
   constructor() { }
   title="Product List"
+  filterText ="P"
   products :  Product[]=[
     { 
       id:1,

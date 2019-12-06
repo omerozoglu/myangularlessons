@@ -4,8 +4,9 @@
 
 <div class="form-group">
     <input class="form-control" id="productName" placeholder="Search"
+    [(ngModel)]="filterText"
       >
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small *ngIf="filterText" class="form-text text-muted">You searched <strong>{{filterText}}</strong></small>
   </div>
 
 <div class="row">

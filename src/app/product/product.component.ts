@@ -59,5 +59,7 @@ export class ProductComponent implements OnInit {
   
   ngOnInit() {
   }
-
+  addToCard(product){
+    alert("added to card :"+ product.name);
+  }
 }

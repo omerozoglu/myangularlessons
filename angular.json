@@ -28,7 +28,6 @@
             ],
             "scripts": [
               "./node_modules/alertifyjs/build/alertify.min.js"
-
             ]
           },
           "configurations": {
@@ -123,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myangpr"
+    }
+  },
+  "defaultProject": "myangpr",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }
